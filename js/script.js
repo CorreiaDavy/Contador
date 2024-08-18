@@ -7,10 +7,8 @@ function botao_menos(){
 
         
     })
-
-
-   
 }
+
 
 /* função para aumentar o valor contador*/
 function botao_mais(){
@@ -36,11 +34,19 @@ function input_zero(){
     
 }
 
+function verficacaoinput(){
 
+veriInfut = document.getElementById("numero_contador").value
+if( veriInfut == 0){
+    botao_mais()
+}else{
+    botao_menos()
+}
+}
 
+verficacaoinput()
 input_zero()
-botao_menos()
-botao_mais()
+
 
 
    
