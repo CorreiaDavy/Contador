@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Alinhar ao centro os elementos do contador */
+
+body{
+    background-color: rgba(0, 0, 0, 0.258);
+}
+
+#contador{
+    
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+#area_cont{
+    border-radius: 10px;
+    background-color: beige;
+    width: 500px;
+    padding: 20px;
+}
+
+#title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#numero_contador{
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+
+}
+
+#sec_contador img{
+ width: 60px;
+}
+
+.img_control img:hover{
+    transform: translateY(-5px);
+    background-color: rgba(29, 29, 28, 0.067);
+    border-radius: 10px;
+}
