@@ -1,9 +1,15 @@
 
  
-/* função para diminuir o valor contador*/
+/* função para diminuir o valor contador  até chegar no valor 0*/
 function botao_menos(){
     const menuButao = document.querySelector("#botao_decre").addEventListener("click", function(){
-        const input_menos = document.getElementById("numero_contador").value--
+
+        const input_menos = document.getElementById("numero_contador")
+        if(input_menos.value !=0){
+            
+        const input_meno = document.getElementById("numero_contador").value--
+        
+        }
 
         
     })
@@ -34,17 +40,9 @@ function input_zero(){
     
 }
 
-function verficacaoinput(){
 
-veriInfut = document.getElementById("numero_contador").value
-if( veriInfut == 0){
-    botao_mais()
-}else{
-    botao_menos()
-}
-}
-
-verficacaoinput()
+botao_menos()
+botao_mais()
 input_zero()
 
 
